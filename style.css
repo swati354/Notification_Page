@@ -1,0 +1,134 @@
+*{
+    /* font-family: 'Montserrat', sans-serif; */
+font-family: 'Noto Sans TC', sans-serif;
+/* font-family: 'Ubuntu', sans-serif; */
+}
+.notificationBox{
+    background-color:hsl(0, 0%, 100%);
+    width : 700px;
+    margin : auto;
+    box-sizing: border-box;
+    position: realtive;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    /* border: 2px solid black; */
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.headAndButton{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: -8px;
+}
+
+.headAndButton span{
+    margin-left: 20px;
+    font-weight: 800;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: -25px;
+}
+.headAndButton button{
+    margin-top: 11px;
+    background-color: rgb(59, 113, 126);
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    border-radius: 6px;
+   
+}
+
+.mainBox
+{
+    background-color : hsl(211, 68%, 94%);
+    /* border : 2px solid black; */
+    width : 1440px;
+    height : 860px;
+    position: absolute;
+    margin : 10px 215px;
+}
+
+#markRead a{
+    margin-left: 305px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0px;
+    position: absolute;
+    text-decoration: none;
+    color :rgb(124, 129, 129);
+}
+.box{
+    background-color: (210, 60%, 98%);
+    /* border : 2px solid red; */
+    padding : -3px;
+    margin: 10px;
+    border-radius: 12px;
+
+}
+.box img{
+    float:left;
+    width: 40px;
+    margin-top: 16px;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.line{
+    position: relative;
+    margin-left: 55px;
+    padding: 11px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.notdiv{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    margin-left: -7px;
+    margin-bottom: 23px;
+    padding-top: 14px;
+    display: flex;
+
+}
+
+.notdiv h1{
+    position: absolute;
+    margin-bottom: 10px;
+}
+.time{
+    margin-left: -1px;
+    color: rgb(147, 151, 151);
+}
+.blue{
+    height: 70px;
+    background-color: hsl(210, 39%, 87%);
+    margin:auto;
+    border-radius: 12px;
+
+}
+.smallbox{
+    /* border : 2px solid black; */
+    margin-top:30px;
+}
+
+.box2{
+    position: relative;
+    border-radius: 5px;
+    border : 2px solid rgb(193, 199, 199);
+    color: rgb(105, 107, 107);
+    margin-top: -14px;
+    margin-bottom: 13px;
+    margin-left: 83px;
+    margin-right: 73px;
+    padding: 11px;
+
+}
+.group{
+    color: rgb(50, 50, 164);
+    font-weight: bold;
+}
+.lightbold{
+    font-weight: 700;
+    color: rgb(47, 47, 47);
+}
